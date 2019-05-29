@@ -9,7 +9,7 @@ Scanner n = new Scanner(System.in);  // Create a Scanner object
 int year = n.nextInt();  // Read user input
 	
 	
-	if (year%4 == 0){	
+	if (year%4 == 0) && (year%100 != 0) || (year%400 == 0){	
         System.out.print(year + " is leap year" );
 	}
 
